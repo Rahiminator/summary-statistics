@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.results {
+    margin-top: 20px;
+}
+
+#plot {
+    margin-top: 20px;
+}
