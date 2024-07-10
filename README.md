@@ -8,6 +8,6 @@ The parsed data is sorted in ascending order, and the following statistical metr
 
 - Minimum (Min): The smallest value in the dataset.
 - First Quartile (Q1): The median of the lower half of the dataset.
-- Median: The middle value of the dataset.
+- Median (Q2): The middle value of the dataset.
 - Third Quartile (Q3): The median of the upper half of the dataset.
 - Maximum (Max): The largest value in the dataset.
