@@ -6,8 +6,8 @@ The current implementation of the website is designed to handle univariate data,
 
 The parsed data is sorted in ascending order, and the following statistical metrics are computed:
 
-Minimum (Min): The smallest value in the dataset.
-First Quartile (Q1): The median of the lower half of the dataset.
-Median: The middle value of the dataset.
-Third Quartile (Q3): The median of the upper half of the dataset.
-Maximum (Max): The largest value in the dataset.
+- Minimum (Min): The smallest value in the dataset.
+- First Quartile (Q1): The median of the lower half of the dataset.
+- Median: The middle value of the dataset.
+- Third Quartile (Q3): The median of the upper half of the dataset.
+- Maximum (Max): The largest value in the dataset.
