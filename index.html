@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <title>Summary Statistics Calculator</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Five Number Summary Calculator</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mobile.css" media="(max-width: 768px)">
     <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 
 <body>
     <div class="container">
-        <h1>Five Number Summary Calculator</h1>
-        <form id="uploadForm">
-            <label for="fileInput">Upload CSV file:</label>
-            <input type="file" id="fileInput" accept=".csv">
-        </form>
-        <div class="results" id="results"></div>
+        <header>
+            <h1>Five Number Summary Statistics</h1>
+            <button id="themeToggle">🌙 Dark Mode</button>
+        </header>
+
+        <div id="dropZone">
+            <p>Drag & drop a CSV file here<br>or click to upload</p>
+            <input type="file" id="fileInput" accept=".csv" hidden>
+        </div>
+
+        <div id="results"></div>
         <div id="plot"></div>
     </div>
 
     <script src="script.js"></script>
 </body>
-
 </html>
